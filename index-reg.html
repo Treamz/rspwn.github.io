@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles/main.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+    <title>rspwn</title>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light nbg-rspwn">
+        <a class="navbar-brand" href="index.html"><span>R</span>SPWN</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Link</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Dropdown
+        </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="index.html">Главная</a>
+                        <a class="dropdown-item" href="#">Another action</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="#">Something else here</a>
+                    </div>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link disabled" href="#">Disabled</a>
+                </li>
+            </ul>
+            <form class="form-inline my-2 my-lg-0">
+                <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+            </form>
+        </div>
+    </nav>
+    <div class="container-fluid">
+        <div class="row flex-row">
+            <button type="button" id="sidebarCollapse" class="btn btn-info btn-block d-lg-none d-md-none">
+                <span>Sidebar</span>
+            </button>
+            <nav id="sidebar" class="aside-col col-sm-2 active">
+                <aside>
+                    <div class="ablock">
+                        <div class="profile_aside">
+                            <img src="https://imagescdn.tweaktown.com/news/6/3/63048_64_henry-cavill-play-geralt-netflix-witcher-series.png" class="rounded img-fluid float-left" alt="">
+                            <p class="profilebody d-flex flex-column align-items-between">
+                                <a href="index-profile.html">Treamz</a>
+                                <span class="msg">
+                            4533 credits
+                          </span>
+                                <button type="button" class="btn btn-dark ">Logout</button>
+                            </p>
+                        </div>
+                    </div>
+                    <!-- <div class="divider"></div> -->
+                    <div class="ablock">
+                        <div class="btn-group-vertical btn-lg btn-block" role="group" aria-label="Button group with nested dropdown">
+                            <button type="button" class="btn btn-secondary">Новости</button>
+                            <button type="button" class="btn btn-secondary">Статьи</button>
+                            <button type="button" class="btn btn-secondary">Форум</button>
+                            <button type="button" class="btn btn-secondary">Магазин</button>
+                            <button type="button" class="btn btn-secondary">Халява</button>
+                        </div>
+                    </div>
+                    <!-- <div class="divider"></div> -->
+                    <div class="ablock">
+                        <h4>Горяченькое</h4>
+                        <div class="blockhot">
+                            <!-- Media middle -->
+                            <div class="media">
+                                <img src="https://cdn.shazoo.ru/c440x240/287403_7udsD6EJlP_f76.jpg" class="align-self-start mr-3" style="width:100px">
+                                <div class="media-body">
+                                    <a href="#">Lorem ipsum...Lorem ipsum....Lorem ipsum. </a>
+                                </div>
+                            </div>
+                            <div class="media">
+                                <img src="https://cdn.shazoo.ru/c440x240/287403_7udsD6EJlP_f76.jpg" class="align-self-start mr-3" style="width:100px">
+                                <div class="media-body">
+                                    <a href="#">Lorem ipsum...Lorem ipsum.</a>
+                                </div>
+                            </div>
+                            <div class="media">
+                                <img src="https://cdn.shazoo.ru/c440x240/287403_7udsD6EJlP_f76.jpg" class="align-self-start mr-3" style="width:100px">
+                                <div class="media-body">
+                                    <a href="#">Lorem ipsum...Lorem ipsum.</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- <div class="divider"></div> -->
+                    <div class="ablock">
+                        <h4>Горячие обсуждения</h4>
+                        <div class="blockhot">
+                            <!-- Media middle -->
+                            <div class="media">
+                                <img src="https://imagescdn.tweaktown.com/news/6/3/63048_64_henry-cavill-play-geralt-netflix-witcher-series.png" class="align-self-start mr-3" style="width:70px">
+                                <div class="media-body">
+                                    <h5>Media Middle</h5>
+                                    <p>Lorem ipsum...</p>
+                                </div>
+                            </div>
+                            <div class="media">
+                                <img src="https://imagescdn.tweaktown.com/news/6/3/63048_64_henry-cavill-play-geralt-netflix-witcher-series.png" class="align-self-start mr-3" style="width:70px">
+                                <div class="media-body">
+                                    <h5>Media Middle</h5>
+                                    <p>Lorem ipsum...</p>
+                                </div>
+                            </div>
+                            <div class="media">
+                                <img src="https://imagescdn.tweaktown.com/news/6/3/63048_64_henry-cavill-play-geralt-netflix-witcher-series.png" class="align-self-start mr-3" style="width:70px">
+                                <div class="media-body">
+                                    <h5>Media Middle</h5>
+                                    <p>Lorem ipsum...</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </aside>
+            </nav>
+            <div class="col-xl">
+                <div class="maincont">
+                    <div class="full-card">
+                        <div class="card-body">
+                            <h2 class="card-title">Регистрация</h2>
+                            <div class="form-group">
+  <label for="usr">Ваш логин на RSPWN:</label>
+  <input type="text" class="form-control" id="usr">
+</div>
+<div class="form-group">
+  <label for="usr">Ваша почта:</label>
+  <input type="text" class="form-control" id="email">
+</div>
+<div class="form-group">
+  <label for="pwd">Password:</label>
+  <input type="password" class="form-control" id="pwd">
+</div>
+<button type="button" class="btn btn-primary btn-block">Регистрация</button>
+<hr>
+<div class="text-center"><h3>Зайти через телегу</h3><a href="https://t.me/treamz"><i class="reg fab fa-telegram-plane fa-3x"></i></a>
+</div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-2">
+                    <div class="flogo">
+                        <a class="navbar-brand" href="#"><span>R</span>SPWN</a>
+                    </div>
+                </div>
+                <div class="col-md-8">
+                </div>
+                <div class="col-md-2 d-flex justify-content-sm-end">
+                    <div class="cr">
+                        Designded by <a href="https://t.me/treamz"> treamz</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <script type="text/javascript">
+    $(document).ready(function() {
+        $('#sidebarCollapse').on('click', function() {
+            $('#sidebar').toggleClass('active');
+        });
+    });
+    </script>
+</body>
+
+</html>
