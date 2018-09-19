@@ -59,6 +59,7 @@ a:hover,a:focus {
     transition: .2s all ease-in-out;
 }
 .navbar-brand:hover {
+	transform: rotate(360deg);
 	color: #E74C3C;
 }
 .navbar-light .navbar-brand:hover {
@@ -282,6 +283,16 @@ aside {
 .comment {
 	color: #222;
 }
+
+.comment .media {
+    background-color: #f5f5f5;
+}
+
+span.maintitle {
+	background-color: #222;
+	color: #fff;
+	padding: 3px 10px;
+}
 .commpad {
 	margin: 10px;
 }
@@ -442,6 +453,42 @@ color: #005687;
 
 }
 
+.modal {
+	color: #222;
+}
+.modal a {
+	color: #222;
+}
+
+.modal-footer {
+	    justify-content: center;
+}
+
+
+.modal-content {
+    position: relative;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    width: 100%;
+    pointer-events: auto;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid rgba(0,0,0,.2);
+    border-radius: 0;
+    outline: 0;
+}
+
+
+
+.navbar-light .navbar-toggler {
+    color: rgba(255,255,255,.5);
+    border-color: rgba(0,0,0,.1);
+}
 /* Small Devices, Tablets */
 @media only screen and (max-width : 768px) {
 
@@ -479,13 +526,24 @@ color: #005687;
     .btn_edit {
   
     position: absolute;
-    top: 155px;
+    top: 195px;
     left: 0;
     }
     .btn_edit button {
       width: 100%;
     }
     .maininfoprofile .name h3{
+
     	font-size: 1.25rem;
+    }
+
+    .maininfoprofile {
+    	padding: 10px;
+    	color: #fff;
+    	box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    	background-color: rgba(0,0,0, .5);
+    }
+    .osocials i {
+    	color: #fff;
     }
 }
